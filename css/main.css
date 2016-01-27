@@ -2,6 +2,18 @@ body {
   background-color: black;
 }
 
+/*@font-face {
+    font-family: Samurai;
+    src: url(fonts/samurai.ttf);
+}*/
+
+p {
+  font-family: Rock Salt, sans-serif;
+  font-size: 18px;
+  font-style: bold;
+  color: red;
+}
+
 .main {
   background-color: white;
   margin-top: 110px;
@@ -40,7 +52,6 @@ body {
 }
 .ryu-cool {
   background-image: url('../images/ryu-cool.gif');
-  z-index: 99;
 }
 
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
@@ -59,4 +70,26 @@ body {
   float: left;
 }
 
+.click-ryu {
+  width: 220px;
+  height: 175px;
+  position: absolute;
+  top: 115px;
+  left: 625px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
 
+.press-x {
+  width: 220px;
+  height: 225px;
+  position: absolute;
+  top: 250px;
+  left: 850px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
